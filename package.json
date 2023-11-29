@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.eloistree.measurecarrc",                              
+  "displayName": "Package Measure Car RC",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "Just a package that have the shape of the car to build on it you want to create your own in the game Hello Car RC Unity.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"Eloi Stree",
+"mail":"",
+"url":"https://github.com/EloiStree"},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2023_11_30_HelloGirleekQARC_PackageCarRC",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 
