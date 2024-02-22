@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7691359374042162529
+--- !u!1 &4402593658647719188
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,50 +8,47 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4818462481295161343}
-  - component: {fileID: 8219063514901841397}
-  - component: {fileID: 6809856808983934544}
-  - component: {fileID: 834527170129976352}
-  - component: {fileID: 9120885496669355324}
-  - component: {fileID: 5545201695516927341}
-  - component: {fileID: 1509872893430398490}
+  - component: {fileID: 4621800254676709973}
+  - component: {fileID: 6233382569046120098}
+  - component: {fileID: 7931256171048222458}
+  - component: {fileID: 1462510561954384822}
   m_Layer: 0
-  m_Name: Body Prefab Example
+  m_Name: Drone Blade Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4818462481295161343
+--- !u!4 &4621800254676709973
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7691359374042162529}
+  m_GameObject: {fileID: 4402593658647719188}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.139, y: 1.37, z: -1.8}
-  m_LocalScale: {x: 0.43890357, y: 0.2798805, z: 0.6615357}
+  m_LocalRotation: {x: -0.7071068, y: 0.000000029802319, z: -0.000000059604638, w: 0.70710677}
+  m_LocalPosition: {x: 0.03060006, y: 0.0072999704, z: -0.022201294}
+  m_LocalScale: {x: 0.0427237, y: 0.0427237, z: 0.007409998}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &8219063514901841397
+--- !u!33 &6233382569046120098
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7691359374042162529}
+  m_GameObject: {fileID: 4402593658647719188}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &6809856808983934544
+--- !u!23 &7931256171048222458
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7691359374042162529}
+  m_GameObject: {fileID: 4402593658647719188}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -87,13 +84,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &834527170129976352
+--- !u!65 &1462510561954384822
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7691359374042162529}
+  m_GameObject: {fileID: 4402593658647719188}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -108,44 +105,3 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &9120885496669355324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7691359374042162529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34cc3ae17e3ba30409c05bd8f6e21dec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_memoryReference: []
-  m_missingScriptDetected: 0
---- !u!114 &5545201695516927341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7691359374042162529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 460da4b444d7b0c4eb4f96c0f4766b9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_carUniqueId: be.eloistree.PackageCarDefault
---- !u!114 &1509872893430398490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7691359374042162529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55a4cba770a37b64dae2dd25fbf53b24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_carUniqueId: be.eloistree.PackageCarDefault
-  m_carDisplayName: The default super name
