@@ -131,6 +131,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 271819014822392180, guid: 610a5f391819e3f4aa4dcc71e8d47d5c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 567180be289f97c4a879c24872dcfc7a, type: 2}
+    - target: {fileID: 1754755313336510407, guid: 610a5f391819e3f4aa4dcc71e8d47d5c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 567180be289f97c4a879c24872dcfc7a, type: 2}
     - target: {fileID: 4136490915590187079, guid: 610a5f391819e3f4aa4dcc71e8d47d5c, type: 3}
       propertyPath: m_Name
       value: Car Shape Exost
@@ -175,6 +183,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6483930163277868646, guid: 610a5f391819e3f4aa4dcc71e8d47d5c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 00669df33a3135b41945fa81d3bbdb4e, type: 2}
+    - target: {fileID: 7746766127240255251, guid: 610a5f391819e3f4aa4dcc71e8d47d5c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 567180be289f97c4a879c24872dcfc7a, type: 2}
+    - target: {fileID: 8508201724461979840, guid: 610a5f391819e3f4aa4dcc71e8d47d5c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 567180be289f97c4a879c24872dcfc7a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -238,7 +258,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.1
   far clip plane: 1000
   field of view: 60
   orthographic: 0
@@ -266,8 +286,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1402463545}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.20327623, y: -0, z: -0, w: 0.97912145}
-  m_LocalPosition: {x: -0.09, y: 0.37, z: -0.64}
+  m_LocalRotation: {x: 0.31883574, y: -0.11477789, z: 0.03893062, w: 0.94002885}
+  m_LocalPosition: {x: -0.05227876, y: 0.20834324, z: -0.23785463}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -329,6 +349,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Drone Shape Tello
       objectReference: {fileID: 0}
+    - target: {fileID: 2540505652470481446, guid: cf9da086d25bb904d97ffe397d2addb9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 567180be289f97c4a879c24872dcfc7a, type: 2}
+    - target: {fileID: 3724321751087523285, guid: cf9da086d25bb904d97ffe397d2addb9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 567180be289f97c4a879c24872dcfc7a, type: 2}
+    - target: {fileID: 4031788654538183112, guid: cf9da086d25bb904d97ffe397d2addb9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 567180be289f97c4a879c24872dcfc7a, type: 2}
     - target: {fileID: 4607178179750980191, guid: cf9da086d25bb904d97ffe397d2addb9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -369,6 +401,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5882100318741200556, guid: cf9da086d25bb904d97ffe397d2addb9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 00669df33a3135b41945fa81d3bbdb4e, type: 2}
+    - target: {fileID: 8263809992867614887, guid: cf9da086d25bb904d97ffe397d2addb9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 567180be289f97c4a879c24872dcfc7a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
