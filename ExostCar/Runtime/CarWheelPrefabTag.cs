@@ -5,7 +5,7 @@ using UnityEngine;
 /// <summary>
 ///  Put that script on the wheel prefab of your tank car to in the Resource Folder.
 /// </summary>
-public class WheelPrefabTag : MonoBehaviour
+public class CarWheelPrefabTag : MonoBehaviour
 {
     [Tooltip("Add here a unique id that will only be used by your car.")]
     [SerializeField] string m_carUniqueId;
