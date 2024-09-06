@@ -1,6 +1,6 @@
 
 {                                                                                
-  "name": "be.eloistree.measurecarrc",                              
+  "name": "be.elab.measurecarrc",                              
   "displayName": "Package Measure Car RC",                        
   "version": "0.0.1",                         
   "unity": "2018.1",                             
@@ -10,10 +10,18 @@
   "dependencies":{},     
   "relatedPackages":{},     
   "samples" : [],     
-  "author" : {
-"name":"Eloi Stree",
-"mail":"",
-"url":"https://github.com/EloiStree"},     
+ "samples": [
+    {
+      "displayName": "Demo Scene",
+      "description": "A sample scene that demonstrates the features of this package.",
+      "path": "Scene/Demo"
+    }
+  ],
+  "author": {
+    "name": "Eloi Stree",
+    "mail": "",
+    "url": "https://github.com/EloiStree/"
+  },      
   "repository":{
 "type":"Git",
 "url":"https://github.com/EloiStree/2023_11_30_HelloGirleekQARC_PackageCarRC",
